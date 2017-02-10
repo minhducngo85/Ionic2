@@ -1,0 +1,191 @@
+<!--
+  Generated template for the Buttons page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>buttons</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h1>Buttons</h1>
+  <p>
+    Buttons are an essential way to interact with and navigate through an app, and should clearly communicate what action will
+    occur after the user taps them. Buttons can consist of text and/or an icon, and can be enhanced with a wide variety of
+    attributes. For accessibility reasons, buttons use a standard button element, but are enhanced with an ion-button directive.
+  </p>
+  <p>
+    For more information, Check out the API docs.
+  </p>
+
+  <h1>1. Basic Usage</h1>
+  <button ion-button>Default</button>
+  <button color="light" ion-button>Light</button>
+  <button ion-button color="secondary">Secondary</button>
+  <button ion-button color="danger">Danger</button>
+  <button ion-button color="dark">Dark</button>
+
+  <h1>2. Outline Style</h1>
+  <button ion-button color="light" outline>Light</button>
+  <button ion-button outline>Default</button>
+  <button ion-button color="secondary" outline>Secondary</button>
+  <button ion-button color="danger" outline>Danger</button>
+  <button ion-button color="dark" outline>Dark</button>
+
+  <h1>3. Clear Style</h1>
+  <button ion-button color="light" clear>Light</button>
+  <button ion-button clear>Default</button>
+  <button ion-button color="secondary" clear>Secondary</button>
+  <button ion-button color="danger" clear>Danger</button>
+  <button ion-button color="dark" clear>Dark</button>
+
+  <h1>4. Round Buttons</h1>
+  <p>To create a button with rounded corners, just add the round property.</p>
+  <button ion-button color="light" round>Light Round</button>
+  <button ion-button round>Primary Round</button>
+  <button ion-button color="secondary" round>Secondary Round</button>
+  <button ion-button color="danger" round>Danger Round</button>
+  <button ion-button color="dark" round>Dark Round</button>
+
+  <h1>5. Block Buttons</h1>
+  <p>Adding block to a button will make the button take 100% of its parent’s width. It will also add display: block to the button.
+  </p>
+  <button ion-button color="light" block>Light</button>
+  <button ion-button block>Default</button>
+  <button ion-button color="secondary" block>Secondary</button>
+  <button ion-button color="danger" block>Danger</button>
+  <button ion-button color="dark" block>Dark</button>
+
+
+  <h1>6. Full Buttons</h1>
+  <p>Adding full to a button will also make the button take 100% of its parent’s width. However, it will also remove the button’s
+    left and right borders. This style is useful when the button should stretch across the entire width of the display.
+  </p>
+  <button ion-button color="light" full>Light</button>
+  <button ion-button full>Default</button>
+  <button ion-button color="secondary" full>Secondary</button>
+  <button ion-button color="danger" full>Danger</button>
+  <button ion-button color="dark" full>Dark</button>
+
+
+  <h1>7. Buttons Size</h1>
+  <p>Add the large attribute to make a button larger, or small to make it smaller:
+  </p>
+  <button ion-button small>Small</button>
+  <button ion-button>Default</button>
+  <button ion-button large>Large</button>
+
+
+  <h1>8. Icon Buttons</h1>
+  <p>To add icons to a button, add an icon component inside of it and a position attribute
+  </p>
+  <p>
+    <button ion-button color="light" icon-left>
+      <ion-icon name='arrow-back'></ion-icon>
+      Back
+    </button>
+    <button ion-button color="light" icon-only>
+      <ion-icon name='arrow-down'></ion-icon>
+    </button>
+
+    <button ion-button color="light" icon-only>
+      <ion-icon name='arrow-up'></ion-icon>
+    </button>
+
+    <button ion-button color="light" icon-right>
+      Next
+      <ion-icon name='arrow-forward'></ion-icon>
+    </button>
+  </p>
+
+  <p>
+    <button ion-button icon-left>
+      <ion-icon name='home'></ion-icon>
+      Home
+    </button>
+    <button ion-button outline icon-left>
+      <ion-icon name='briefcase' is-active="false"></ion-icon>
+      Work
+    </button>
+    <button ion-button clear icon-left>
+      <ion-icon name='beer' is-active="false"></ion-icon>
+      Pub
+    </button>
+  </p>
+
+  <p>
+    <button ion-button color="secondary" icon-left>
+      <ion-icon name='people'></ion-icon>
+      Friends
+    </button>
+    <button ion-button color="secondary" outline icon-left>
+      <ion-icon name='paw' is-active="false"></ion-icon>
+      Best Friend
+    </button>
+  </p>
+
+  <p>
+    <button ion-button color="danger" icon-left>
+      <ion-icon name='close'></ion-icon>
+      Remove
+    </button>
+    <button ion-button color="danger" outline icon-only>
+      <ion-icon name='remove-circle' is-active="false"></ion-icon>
+    </button>
+    <button ion-button color="danger" clear icon-only>
+      <ion-icon name='trash' is-active="false"></ion-icon>
+    </button>
+  </p>
+
+  <p>
+    <button ion-button color="dark" round icon-left>
+      <ion-icon name='construct' is-active="false"></ion-icon>
+      Tools
+    </button>
+    <button ion-button color="dark" clear icon-only>
+      <ion-icon name='hammer' is-active="false"></ion-icon>
+    </button>
+  </p>
+
+  <h1>9. Buttons In Components</h1>
+  <p>Although buttons can be used on their own, they can easily be used within other components. For example, buttons can be
+    added to a list item or a navbar.</p>
+  <ion-card>
+    <ion-card-content>
+      <img src="assets/img/img-icon.png" />
+    </ion-card-content>
+  </ion-card>
+  <ion-item>
+    <button ion-button clear item-left>Like</button>
+    <button ion-button clear item-right>Comment</button>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      Inner Button
+      <button ion-button item-right outline>Outline</button>
+    </ion-item>
+    <ion-item>
+      Left Icon Button
+      <button ion-button item-right outline icon-left>
+        <ion-icon name='star'></ion-icon>
+        Left Icon
+      </button>
+    </ion-item>
+    <ion-item>
+      Right Icon Button
+      <button ion-button item-right outline icon-right>
+        Right Icon
+        <ion-icon name='star'></ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
+</ion-content>

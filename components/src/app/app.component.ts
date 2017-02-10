@@ -7,7 +7,8 @@ import { Page2 } from '../pages/page2/page2';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertsPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badge/badge';
-
+import { ButtonsPage} from '../pages/buttons/buttons';
+import { CardsPage} from '../pages/cards/cards'
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,9 @@ export class MyApp {
       { title: 'Page Two', component: Page2 },
       { title: 'Action Sheets', component: ActionSheetsPage },
       { title: 'Alerts', component: AlertsPage },
-      { title: 'Badge', component: BadgePage }
+      { title: 'Badge', component: BadgePage },
+      { title: 'Buttons', component: ButtonsPage },
+      { title: 'Cards', component: CardsPage }
     ];
 
   }
