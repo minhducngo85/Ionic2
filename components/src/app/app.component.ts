@@ -8,7 +8,8 @@ import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertsPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badge/badge';
 import { ButtonsPage} from '../pages/buttons/buttons';
-import { CardsPage} from '../pages/cards/cards'
+import { CardsPage} from '../pages/cards/cards';
+import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,7 +32,8 @@ export class MyApp {
       { title: 'Alerts', component: AlertsPage },
       { title: 'Badge', component: BadgePage },
       { title: 'Buttons', component: ButtonsPage },
-      { title: 'Cards', component: CardsPage }
+      { title: 'Cards', component: CardsPage },
+      { title: 'Checkbox', component: CheckboxesPage }
     ];
 
   }
