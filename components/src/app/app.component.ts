@@ -10,6 +10,9 @@ import { BadgePage } from '../pages/badge/badge';
 import { ButtonsPage} from '../pages/buttons/buttons';
 import { CardsPage} from '../pages/cards/cards';
 import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
+import { DatetimePage } from '../pages/datetime/datetime';
+import { FABsPage } from '../pages/fa-bs/fa-bs';
+import { GesturesPage } from '../pages/gestures/gestures';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,7 +36,10 @@ export class MyApp {
       { title: 'Badge', component: BadgePage },
       { title: 'Buttons', component: ButtonsPage },
       { title: 'Cards', component: CardsPage },
-      { title: 'Checkbox', component: CheckboxesPage }
+      { title: 'Checkbox', component: CheckboxesPage },
+      { title: 'Datetime', component: DatetimePage },
+      { title: 'FABs', component: FABsPage },
+      { title: 'Gestures', component: GesturesPage },
     ];
 
   }
