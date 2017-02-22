@@ -13,6 +13,8 @@ import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FABsPage } from '../pages/fa-bs/fa-bs';
 import { GesturesPage } from '../pages/gestures/gestures';
+import { GridPage } from '../pages/grid/grid';
+import { IconsPage } from '../pages/icons/icons';
 
 @Component({
   templateUrl: 'app.html'
@@ -40,6 +42,8 @@ export class MyApp {
       { title: 'Datetime', component: DatetimePage },
       { title: 'FABs', component: FABsPage },
       { title: 'Gestures', component: GesturesPage },
+      { title: 'Grid', component: GridPage },
+      { title: 'Icon', component: IconsPage },
     ];
 
   }
