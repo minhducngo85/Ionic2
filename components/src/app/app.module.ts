@@ -14,6 +14,13 @@ import { FABsPage } from '../pages/fa-bs/fa-bs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
+import { InputsPage } from '../pages/inputs/inputs';
+import { LoadingPage } from '../pages/loading/loading';
+import { ModalsPage } from '../pages/modals/modals';
+import { ModalContentPage } from '../pages/modals/modals';
+import { NavigationPage } from '../pages/navigation/navigation';
+import { NavigationdetailsPage } from '../pages/navigationdetails/navigationdetails';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +37,13 @@ import { IconsPage } from '../pages/icons/icons';
     FABsPage,
     GesturesPage,
     GridPage,
-    IconsPage
+    IconsPage,
+    InputsPage,
+    LoadingPage,
+    ModalsPage,
+    ModalContentPage,
+    NavigationPage,
+    NavigationdetailsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -50,7 +63,13 @@ import { IconsPage } from '../pages/icons/icons';
     FABsPage,
     GesturesPage,
     GridPage,
-    IconsPage
+    IconsPage,
+    InputsPage,
+    LoadingPage,
+    ModalsPage,
+    ModalContentPage,
+    NavigationPage,
+    NavigationdetailsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

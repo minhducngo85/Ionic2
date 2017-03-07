@@ -1,0 +1,110 @@
+<!--
+  Generated template for the Inputs page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>inputs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h1>Inputs</h1>
+  <p>Inputs are essential for collecting and handling user input in a secure way. They should follow styling and interaction
+    guidelines for each platform, so that they are intuitive for users to interact with. Ionic uses Angular 2’s form library,
+    which can be thought of as two dependent pieces, Controls, and Control Groups.</p>
+
+  <h1>1. Fixed Inline Labels</h1>
+  <p>Use fixed to place a label to the left of the input element. The label does not hide when text is entered. The input will
+    align on the same position, regardless of the length of the label. Placeholder text can be used in conjunction with a
+    fixed label.</p>
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Username</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>Password</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button color="primary" block>Sign In</button>
+  </div>
+
+  <h1>2. Floating Labels</h1>
+  <p>Floating labels are labels that animate or “float” up when the input is selected. Add the floating attribute to an ion-label
+    to use.</p>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button color="primary" block>Sign In</button>
+  </div>
+
+  <h1>3. Inline Labels</h1>
+  <p>Demo Source An ion-label without any attributes is an inline label. The label does not hide when text is entered. Placeholder
+    text can be used in conjunction with an inline label.</p>
+  <ion-list>
+    <ion-item>
+      <ion-label>Username</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button block>Sign In</button>
+  </div>
+
+  <h1>4. Inset Labels</h1>
+  <p>By default each input item will fill 100% of the width of its parent element. Make the input inset by adding the inset
+    attribute to the ion-list component.</p>
+  <ion-list inset>
+    <ion-item>
+      <ion-label>Username</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item> 
+  </ion-list>
+  <div padding>
+    <button ion-button color="primary" block>Sign In</button>
+  </div>
+
+  <h1>5. Place Holder</h1>
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="primary" block>Sign In</button>
+  </div>
+</ion-content>

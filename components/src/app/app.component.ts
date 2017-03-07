@@ -15,6 +15,10 @@ import { FABsPage } from '../pages/fa-bs/fa-bs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
+import { InputsPage } from '../pages/inputs/inputs';
+import { LoadingPage } from '../pages/loading/loading';
+import { ModalsPage } from '../pages/modals/modals';
+import { NavigationPage } from '../pages/navigation/navigation';
 
 @Component({
   templateUrl: 'app.html'
@@ -44,6 +48,10 @@ export class MyApp {
       { title: 'Gestures', component: GesturesPage },
       { title: 'Grid', component: GridPage },
       { title: 'Icon', component: IconsPage },
+      { title: 'Inputs', component: InputsPage },
+      { title: 'Loading', component: LoadingPage },
+      { title: 'Modal', component: ModalsPage },
+      { title: 'Navigation', component: NavigationPage },
     ];
 
   }
