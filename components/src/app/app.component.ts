@@ -7,8 +7,8 @@ import { Page2 } from '../pages/page2/page2';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertsPage } from '../pages/alerts/alerts';
 import { BadgePage } from '../pages/badge/badge';
-import { ButtonsPage} from '../pages/buttons/buttons';
-import { CardsPage} from '../pages/cards/cards';
+import { ButtonsPage } from '../pages/buttons/buttons';
+import { CardsPage } from '../pages/cards/cards';
 import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FABsPage } from '../pages/fa-bs/fa-bs';
@@ -19,6 +19,12 @@ import { InputsPage } from '../pages/inputs/inputs';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalsPage } from '../pages/modals/modals';
 import { NavigationPage } from '../pages/navigation/navigation';
+import { PopoverPage } from '../pages/popover/popover';
+import { RadiosPage } from '../pages/radios/radios';
+import { RangePage } from '../pages/range/range';
+import { SearchbarPage } from '../pages/searchbar/searchbar';
+import { SegmentPage } from '../pages/segment/segment';
+import { SelectPage } from '../pages/select/select';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +34,7 @@ export class MyApp {
 
   rootPage: any = Page1;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{ title: string, component: any }>;
 
   constructor(public platform: Platform) {
     this.initializeApp();
@@ -52,6 +58,12 @@ export class MyApp {
       { title: 'Loading', component: LoadingPage },
       { title: 'Modal', component: ModalsPage },
       { title: 'Navigation', component: NavigationPage },
+      { title: 'Popover', component: PopoverPage },
+      { title: 'Radio', component: RadiosPage },
+      { title: 'Range', component: RangePage },
+      { title: 'Searchbar', component: SearchbarPage },
+      { title: 'Segment', component: SegmentPage },
+      { title: 'Select', component: SelectPage },
     ];
 
   }

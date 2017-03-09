@@ -20,7 +20,13 @@ import { ModalsPage } from '../pages/modals/modals';
 import { ModalContentPage } from '../pages/modals/modals';
 import { NavigationPage } from '../pages/navigation/navigation';
 import { NavigationdetailsPage } from '../pages/navigationdetails/navigationdetails';
-
+import { PopoverPage } from '../pages/popover/popover';
+import { PopoverContentPage } from '../pages/popover/popover';
+import { RadiosPage } from '../pages/radios/radios';
+import { RangePage } from '../pages/range/range';
+import { SearchbarPage } from '../pages/searchbar/searchbar';
+import { SegmentPage } from '../pages/segment/segment';
+import { SelectPage } from '../pages/select/select';
 
 @NgModule({
   declarations: [
@@ -43,7 +49,14 @@ import { NavigationdetailsPage } from '../pages/navigationdetails/navigationdeta
     ModalsPage,
     ModalContentPage,
     NavigationPage,
-    NavigationdetailsPage
+    NavigationdetailsPage,
+    PopoverPage,
+    PopoverContentPage,
+    RadiosPage,
+    RangePage,
+    SearchbarPage,
+    SegmentPage,
+    SelectPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -69,7 +82,14 @@ import { NavigationdetailsPage } from '../pages/navigationdetails/navigationdeta
     ModalsPage,
     ModalContentPage,
     NavigationPage,
-    NavigationdetailsPage
+    NavigationdetailsPage,
+    PopoverPage,
+    PopoverContentPage,
+    RadiosPage,
+    RangePage,
+    SearchbarPage,
+    SegmentPage,
+    SelectPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
